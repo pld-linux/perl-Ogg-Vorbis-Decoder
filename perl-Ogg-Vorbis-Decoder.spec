@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Ogg
 %define	pnam	Vorbis-Decoder
-Summary:	Ogg::Vorbis::Decoder - An object-oriented Ogg Vorbis to decoder
-#Summary(pl):	
+Summary:	Ogg::Vorbis::Decoder - An object-oriented Ogg Vorbis decoder
+Summary(pl):	Ogg::Vorbis::Decoder - obiektowo zorientowany dekoder Ogg Vorbis
 Name:		perl-Ogg-Vorbis-Decoder
 Version:	0.6
 Release:	1
@@ -23,13 +23,18 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This module provides users with Decoder objects for Ogg Vorbis files.
 One can read data in PCM format from the stream, seek by raw bytes,
-pcm samples, or time, and gather decoding-specific information not
-provided by Ogg::Vorbis::Header.  Currently, we provide no support for
+PCM samples, or time, and gather decoding-specific information not
+provided by Ogg::Vorbis::Header. Currently, we provide no support for
 the callback mechanism provided by the Vorbisfile API; this may be
 included in future releases.
 
-# %description -l pl
-# TODO
+%description -l pl
+Ten modu³ dostarcza obiekty Decoder dla plików Ogg Vorbis. Pozwala
+odczytywaæ dane w formacie PCM ze strumienia, przemieszczaæ siê po
+surowych bajtach, próbkach PCM lub czasie i gromadziæ specyficzne dla
+dekodera informacje nie dostarczane przez Ogg::Vorbis::Header.
+Aktualnie nie ma obs³ugi mechanizmu wywo³añ zwrotnych dostarczanego
+przez API Vorbisfile - byæ mo¿e pojawi siê ona w przysz³ych wersjach.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
