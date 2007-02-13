@@ -6,7 +6,7 @@
 %define	pdir	Ogg
 %define	pnam	Vorbis-Decoder
 Summary:	Ogg::Vorbis::Decoder - An object-oriented Ogg Vorbis decoder
-Summary(pl.UTF-8):   Ogg::Vorbis::Decoder - obiektowo zorientowany dekoder Ogg Vorbis
+Summary(pl.UTF-8):	Ogg::Vorbis::Decoder - obiektowo zorientowany dekoder Ogg Vorbis
 Name:		perl-Ogg-Vorbis-Decoder
 Version:	0.6
 Release:	1
