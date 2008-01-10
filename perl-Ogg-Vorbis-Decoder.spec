@@ -43,6 +43,7 @@ przez API Vorbisfile - być może pojawi się ona w przyszłych wersjach.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make} \
+	CC="%{__cc}" \
 	OPTIMIZE="%{rpmcflags}"
 
 %{?with_tests:%{__make} test}
