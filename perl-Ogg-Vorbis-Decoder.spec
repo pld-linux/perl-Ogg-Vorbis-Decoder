@@ -12,8 +12,9 @@ Version:	0.6
 Release:	2
 License:	GPL v2+
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Ogg/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b95fa97f11fea460c8059ccb53db2bda
+URL:		http://search.cpan.org/dist/Ogg-Vorbis-Decoder/
 BuildRequires:	libogg-devel
 BuildRequires:	libvorbis-devel
 BuildRequires:	perl-devel >= 1:5.8.0
