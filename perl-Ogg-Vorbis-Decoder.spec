@@ -8,12 +8,12 @@
 Summary:	Ogg::Vorbis::Decoder - An object-oriented Ogg Vorbis decoder
 Summary(pl.UTF-8):	Ogg::Vorbis::Decoder - obiektowo zorientowany dekoder Ogg Vorbis
 Name:		perl-Ogg-Vorbis-Decoder
-Version:	0.6
-Release:	2
+Version:	0.8
+Release:	1
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Ogg/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b95fa97f11fea460c8059ccb53db2bda
+# Source0-md5:	5a21563d63f725c9f633f57834eb3f27
 URL:		http://search.cpan.org/dist/Ogg-Vorbis-Decoder/
 BuildRequires:	libogg-devel
 BuildRequires:	libvorbis-devel
