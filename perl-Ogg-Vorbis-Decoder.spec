@@ -66,7 +66,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README TODO
 %dir %{perl_vendorarch}/auto/Ogg/Vorbis/Decoder
 %{perl_vendorarch}/Ogg/Vorbis/Decoder.pm
-%{perl_vendorarch}/auto/Ogg/Vorbis/Decoder/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Ogg/Vorbis/Decoder/*.so
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
