@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Ogg
 %define	pnam	Vorbis-Decoder
 Summary:	Ogg::Vorbis::Decoder - An object-oriented Ogg Vorbis decoder
